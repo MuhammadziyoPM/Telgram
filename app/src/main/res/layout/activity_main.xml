@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:layout_width="1000dp"
+       android:layout_height="90dp"
+       android:background="#2183D1"
+       android:orientation="horizontal"
+       >
+
+      <ImageView
+          android:layout_width="50dp"
+          android:layout_height="80dp"
+         android:layout_marginStart="10dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="100dp"
+          android:src="@drawable/baseline_menu_24"
+          android:paddingTop="5dp"
+
+          />
+
+      <TextView
+          android:layout_width="150dp"
+          android:layout_height="50dp"
+          android:text="Telegram"
+          android:textSize="35dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginStart="20dp"
+          android:textColor="@color/white"
+          android:textStyle="bold"
+          />
+      <ImageView
+          android:layout_width="50dp"
+          android:layout_height="80dp"
+          android:src="@drawable/baseline_search_24"
+          android:layout_marginStart="105dp"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="17:03"
+          android:layout_marginTop="70dp"
+          />
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+
+       >
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+         <ImageView
+             android:layout_width="100dp"
+             android:layout_height="100dp"
+             android:layout_marginTop="7dp"
+             android:layout_marginStart="10dp"
+             android:src="@drawable/ras6"
+             />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          >
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:text="Bobur"
+                android:textStyle="bold"
+                android:textSize="27dp"
+                android:layout_marginTop="19dp"
+                android:paddingStart="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17:03"
+                android:textSize="20dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="18dp"
+                />
+         </LinearLayout>
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="20dp"
+             android:paddingStart="15dp"
+             android:text="How are you Muhammadziyo"
+             />
+
+      </LinearLayout>
+   </LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="7dp"
+       android:orientation="vertical"
+       android:layout_gravity="center"
+       tools:context=".MainActivity">
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:src="@drawable/ras3"
+                />
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="38dp"
+                   android:text="Alisher Daminov"
+                   android:textStyle="bold"
+                   android:textSize="27dp"
+                   android:layout_marginTop="19dp"
+                   android:paddingStart="15dp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="18:34"
+                   android:textSize="20dp"
+                   android:layout_marginStart="15dp"
+                   android:layout_marginTop="18dp"
+                   />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:paddingStart="15dp"
+                android:text="Did you do the homework?"
+                />
+
+
+         </LinearLayout>
+      </LinearLayout>
+
+
+</LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="7dp"
+       android:layout_gravity="center"
+       tools:context=".MainActivity">
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ras4"
+                />
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="38dp"
+                   android:text="Ulug'bek"
+                   android:textStyle="bold"
+                   android:textSize="27dp"
+                   android:layout_marginTop="19dp"
+                   android:paddingStart="15dp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="19:15"
+                   android:textSize="20dp"
+                   android:layout_marginStart="110dp"
+                   android:layout_marginTop="18dp"
+                   />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:paddingStart="15dp"
+                android:text="Challange is good Muhammadziyo!"
+                />
+
+         </LinearLayout>
+      </LinearLayout>
+
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_marginTop="7dp"
+          android:layout_gravity="center"
+          tools:context=".MainActivity">
+
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginStart="10dp"
+                   android:src="@drawable/ras5"
+                   />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="38dp"
+                      android:text="Telegram"
+                      android:textStyle="bold"
+                      android:textSize="27dp"
+                      android:layout_marginTop="19dp"
+                      android:paddingStart="15dp"
+                      />
+                  <ImageView
+                      android:layout_width="30dp"
+                      android:layout_height="60dp"
+                      android:paddingTop="22dp"
+
+                      android:src="@drawable/baseline_workspace_premium_24"
+                      />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="21:52"
+                      android:textSize="20dp"
+                      android:layout_marginStart="70dp"
+                      android:layout_marginTop="18dp"
+                      />
+               </LinearLayout>
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20dp"
+                   android:paddingStart="15dp"
+                   android:text="Your telegram is good!"
+                   />
+
+            </LinearLayout>
+         </LinearLayout>
+         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="7dp"
+             android:orientation="vertical"
+             android:layout_gravity="center"
+             tools:context=".MainActivity">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+                  <ImageView
+                      android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginStart="10dp"
+                      android:src="@drawable/ras7"
+                      />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   >
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      >
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="38dp"
+                         android:text="Pavel Durov"
+                         android:textStyle="bold"
+                         android:textSize="27dp"
+                         android:layout_marginTop="19dp"
+                         android:paddingStart="5dp"
+                         />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="23:19"
+                         android:textSize="20dp"
+                         android:layout_marginStart="85dp"
+                         android:layout_marginTop="18dp"
+                         />
+                  </LinearLayout>
+
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="20dp"
+                      android:paddingStart="15dp"
+                      android:text="Good App! Muhammadziyo"
+                      />
+
+               </LinearLayout>
+            </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>
